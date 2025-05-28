@@ -1,0 +1,32 @@
+name: cashflow_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.7.0 <4.0.0' # Corrected sdk constraint
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_auth: ^4.17.1 # Updated to a more recent version
+  firebase_core: ^2.24.2 # Updated to a more recent version
+  percent_indicator: ^4.2.3 # Add this line
+  fl_chart: ^0.68.0 # Make sure this is also present if you used it in the ResultsPage
+  cloud_firestore: ^4.0.0 # Use the latest version
+  intl: ^0.19.0 # Use the latest version
+  http: ^1.2.1 # Or the latest compatible version
+  file_picker: ^6.1.1 # Or the latest compatible version
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0 # Updated to a more recent version
+
+flutter:
+  uses-material-design: true
+  

@@ -1,0 +1,15 @@
+firebase_functions~=0.1.0
+firebase-functions
+firebase-admin
+xgboost
+tensorflow==2.16.1  # Or a compatible version if 2.16.1 causes issues
+keras==3.8.0
+pandas
+numpy
+joblib # Or pickle, depending on how XGBoost was saved
+# Add any other libraries your preprocessing needs# requirements.txt
+pandas
+numpy
+scikit-learn  # For XGBoost (if using sklearn API)
+# For LSTM, if using TensorFlow/Keras:
+prophet

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "335840565919",
+    "firebase_url": "https://graduation-project-22-default-rtdb.firebaseio.com",
+    "project_id": "graduation-project-22",
+    "storage_bucket": "graduation-project-22.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335840565919:android:d5a62e0e569b7b3826a0aa",
+        "android_client_info": {
+          "package_name": "com.example.cashflow_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC5VeRQo_6CT2ZqI7au7f2TiG8AGbajtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

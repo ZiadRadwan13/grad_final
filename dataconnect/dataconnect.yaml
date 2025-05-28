@@ -1,0 +1,12 @@
+specVersion: "v1"
+serviceId: "ma7shi"
+location: "europe-southwest1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "ma7shi5ales"
+      cloudSql:
+        instanceId: "ma7shiawi"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]
